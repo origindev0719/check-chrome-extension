@@ -1,0 +1,22 @@
+{
+  "name": "A demo to check if an extension is installed",
+  "description": "Send and receive events",
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "Testing",
+    "default_icon": "cactus.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "manifest_version": 2,
+  "externally_connectable": {
+    "matches": [
+      "*://localhost/*"
+    ]
+  }
+}
