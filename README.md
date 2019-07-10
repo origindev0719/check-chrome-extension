@@ -8,9 +8,10 @@ To check if user installed our Chrome extension. We will send an event to that e
 ### background.js
 Listener which sends event back to app when receives event from app
 ## Demo
+- Install extension from folder `extension` following [this](https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually/)
 - Change value of `_EXTENSION_ID` to your extension ID in demo/script.js
+- If you haven't had `serve` installed. Install by `npm install -g serve`
 - Run following command
 `serve demo`
-If you haven't had `serve` installed. Install by `npm install -g serve`
 
-You can paste code inside `send-message.js` to Chrome DevTools. It will work too. (Remember to change your extension id also)
+You can paste code inside `send-message.js` to Chrome DevTools. It will work too. (Remember to change `EXTENSION_ID` also)

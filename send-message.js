@@ -1,4 +1,3 @@
-
 let hasExtension = false;
 const EXTENSION_ID = 'bckeimbecpnddkmfmhdiaifjfcpjlggm'
 const checkInstalled = () => new Promise(function(resolve, reject) {
